@@ -15,7 +15,7 @@ datos <- arrange(DAX30_FUT, date)
 
 ##PARÁMETROS##
 
-r <- -0.00214 #Tipo de interés medio del bono alemán a 10 años (31DIC18-31DIC19)
+r <- 0.005 #Tipo de interés medio del bono alemán a 10 años (31DIC18-31DIC19)
 q <- 0.0379859 #Dividendos del DAX30 (proporcionado por Thomson Reuters 
 #a día 11 de abril de 2020)
 sd <- mean(VIX_DAX30$vix)/100 #Desviación típica sacada del VIX histórico.
